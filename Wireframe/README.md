@@ -25,4 +25,4 @@ This is a simple informational website titled **Healthy Lifestyle**, aimed at pr
 - The articles section has three unique articles, each including a title, summary, and a link.(Done)
 - The page footer is fixed to the bottom of the viewport.(Done)
 - The webpage is styled using a linked .css file.(Done)
-- The webpage is properly committed and pushed to a branch on GitHub.
+- The webpage is properly committed and pushed to a branch on GitHub. (Done)
