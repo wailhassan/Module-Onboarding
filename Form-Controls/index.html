@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>My form exercise</title>
-    <meta name="description" content="" />
+    <title>T-shirts Market</title>
+    <meta name="description" content="This website is selling T-shirts for customers" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -13,15 +13,71 @@
     </header>
     <main>
       <form>
-        <!-- write your html here-->
-        <!-- 
-          try writing out the requirements first as comments
-        this will also help you fill in your PR message later-->
+
+        <!-- Here is the customer's name: -->
+        
+        <div>
+          <label for="name"> <strong>Name:</strong></label>
+          <input type="text" name="name" id="name" placeholder="Customer Name">
+        </div>
+        <br>
+
+        <!-- Here is the customer's Email: -->
+        
+        <div>
+          <label for="email"> <strong>Email:</strong></label>
+          <input type="email" name="email" id="email" placeholder="exaple@gmail.com">
+        </div>
+        <br>
+
+        <!-- Here are 3 options T-shirt Color: -->
+  
+        <div>
+          <label for="T-shirt Color"><strong>T-shirt Color:</strong></label>
+          <div>
+
+            <label for="T-shirt Color">Red</label>
+            <input type="radio" name="T-shirt Color" id="T-shirt Color">
+
+            <label for="T-shirt Color">Black</label>
+            <input type="radio" name="T-shirt Color" id="T-shirt Color">
+
+            <label for="T-shirt Color">Blue</label>
+            <input type="radio" name="T-shirt Color" id="T-shirt Color">
+          </div>
+        </div>
+        <br>
+
+        <!-- Here are options for T-shirt size: -->
+        
+        <div>
+          <label for="t-Size"><strong>T-shirt Size:</strong></label>
+        </div>
+        <div>
+          <label for="XS">XS</label>
+          <input type="radio" name="t-Size" id="XS">
+
+          <label for="S">S</label>
+          <input type="radio" name="t-Size" id="S">
+
+          <label for="M">M</label>
+          <input type="radio" name="t-Size" id="M">
+
+          <label for="L">L</label>
+          <input type="radio" name="t-Size" id="L">
+
+          <label for="XL">XL</label>
+          <input type="radio" name="t-Size" id="XL">
+
+          <label for="XXL">XXL</label>
+          <input type="radio" name="t-Size" id="XXL">
+        </div>
       </form>
     </main>
+
     <footer>
-      <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
+      <h2>By Wail Hassan</h2>
     </footer>
+    
   </body>
 </html>
